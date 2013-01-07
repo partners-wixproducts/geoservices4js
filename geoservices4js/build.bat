@@ -1,0 +1,1 @@
+java -jar ./tools/compiler/compiler.jar --js src/Bounds.js src/Client.js src/Polygon.js src/Protocol.js src/Utils.js --js_output_file=dist/geoservices4js.js
