@@ -11,7 +11,7 @@ geoservices.Protocol = geoservices.Protocol || (function() {
 		
 		var client = http.create({
 			onload : function(e) {
-				callback(JSON.parse(this.responseText));
+				callback(JSON.parse(client.responseText));
 			},
 			onerror : function(e) {
 				callback({

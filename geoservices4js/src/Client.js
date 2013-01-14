@@ -29,7 +29,7 @@ geoservices.Client = geoservices.Client || function(params) { return (function(p
 			request : {
 				type : "geocode",
 				locale : locale,
-				query: query
+				query : query
 			},
 			callback : function(response) {
 				callback({
